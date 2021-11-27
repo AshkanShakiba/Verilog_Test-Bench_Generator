@@ -25,6 +25,8 @@ int main() {
     strcat(test_bench, "end\n");
     printf("-------------\n");
     printf("%s", test_bench);
+    getch();
     return 0;
 }
+
 // Verilog Test Bench Generator
